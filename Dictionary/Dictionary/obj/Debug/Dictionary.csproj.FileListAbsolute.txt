@@ -1,0 +1,13 @@
+E:\AnulII\MAP\Dictionary\Dictionary\bin\Debug\Dictionary.exe.config
+E:\AnulII\MAP\Dictionary\Dictionary\bin\Debug\Dictionary.exe
+E:\AnulII\MAP\Dictionary\Dictionary\bin\Debug\Dictionary.pdb
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.AssemblyReference.cache
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.Properties.Resources.resources
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.GenerateResource.cache
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.CoreCompileInputs.cache
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.exe
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.pdb
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.Form2.resources
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.MainPage.resources
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.AdminInterface.resources
+E:\AnulII\MAP\Dictionary\Dictionary\obj\Debug\Dictionary.UserInterface.resources
