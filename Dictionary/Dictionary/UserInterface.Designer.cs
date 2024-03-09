@@ -34,6 +34,8 @@
             this.searchButton = new System.Windows.Forms.Button();
             this.outputBox = new System.Windows.Forms.TextBox();
             this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.categoryBox = new System.Windows.Forms.TextBox();
+            this.categBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +51,7 @@
             // 
             // inputBox
             // 
-            this.inputBox.Location = new System.Drawing.Point(170, 189);
+            this.inputBox.Location = new System.Drawing.Point(159, 189);
             this.inputBox.Multiline = true;
             this.inputBox.Name = "inputBox";
             this.inputBox.Size = new System.Drawing.Size(247, 36);
@@ -84,11 +86,28 @@
             this.pictureBox.TabIndex = 6;
             this.pictureBox.TabStop = false;
             // 
+            // categoryBox
+            // 
+            this.categoryBox.Location = new System.Drawing.Point(86, 404);
+            this.categoryBox.Name = "categoryBox";
+            this.categoryBox.Size = new System.Drawing.Size(583, 22);
+            this.categoryBox.TabIndex = 7;
+            // 
+            // categBox
+            // 
+            this.categBox.FormattingEnabled = true;
+            this.categBox.Location = new System.Drawing.Point(33, 101);
+            this.categBox.Name = "categBox";
+            this.categBox.Size = new System.Drawing.Size(121, 24);
+            this.categBox.TabIndex = 8;
+            // 
             // UserInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.categBox);
+            this.Controls.Add(this.categoryBox);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.outputBox);
             this.Controls.Add(this.searchButton);
@@ -109,5 +128,7 @@
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.TextBox outputBox;
         private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.TextBox categoryBox;
+        private System.Windows.Forms.ComboBox categBox;
     }
 }

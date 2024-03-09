@@ -37,10 +37,7 @@ namespace Dictionary
             }
             return false; 
         }
-        void test()
-        {
-            //empty
-        }
+      
     }
    
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddWord.Designer.cs">
+      <DependentUpon>AddWord.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminInterface.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,18 @@
     </Compile>
     <Compile Include="Admistrator.cs" />
     <Compile Include="Category.cs" />
+    <Compile Include="DeleteWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteWord.Designer.cs">
+      <DependentUpon>DeleteWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExistCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExistCategory.Designer.cs">
+      <DependentUpon>ExistCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +84,18 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModifyWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyWord.Designer.cs">
+      <DependentUpon>ModifyWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NeexistCateg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NeexistCateg.Designer.cs">
+      <DependentUpon>NeexistCateg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserInterface.cs">
@@ -75,14 +105,29 @@
       <DependentUpon>UserInterface.cs</DependentUpon>
     </Compile>
     <Compile Include="Word.cs" />
+    <EmbeddedResource Include="AddWord.resx">
+      <DependentUpon>AddWord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminInterface.resx">
       <DependentUpon>AdminInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteWord.resx">
+      <DependentUpon>DeleteWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExistCategory.resx">
+      <DependentUpon>ExistCategory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyWord.resx">
+      <DependentUpon>ModifyWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NeexistCateg.resx">
+      <DependentUpon>NeexistCateg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -16,5 +16,23 @@ namespace Dictionary
         {
             InitializeComponent();
         }
+
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+            DeleteWord deleteWord = new DeleteWord();
+            deleteWord.ShowDialog();
+        }
+
+        private void modifyButton_Click(object sender, EventArgs e)
+        {
+            ModifyWord modifyWord = new ModifyWord();
+            modifyWord.ShowDialog();
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            AddWord addWord = new AddWord();
+            addWord.ShowDialog();
+        }
     }
 }

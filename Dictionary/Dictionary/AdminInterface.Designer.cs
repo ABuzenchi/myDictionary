@@ -53,6 +53,7 @@
             this.modifyButton.TabIndex = 1;
             this.modifyButton.Text = "Modify a word";
             this.modifyButton.UseVisualStyleBackColor = true;
+            this.modifyButton.Click += new System.EventHandler(this.modifyButton_Click);
             // 
             // addButton
             // 
@@ -63,6 +64,7 @@
             this.addButton.TabIndex = 2;
             this.addButton.Text = "Add a new word";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // deleteButton
             // 
@@ -73,6 +75,7 @@
             this.deleteButton.TabIndex = 3;
             this.deleteButton.Text = "Delete a word";
             this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
             // AdminInterface
             // 
