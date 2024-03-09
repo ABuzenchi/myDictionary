@@ -1,0 +1,14 @@
+﻿<Window x:Class="myDictionary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myDictionary"
+        mc:Ignorable="d"
+        Title="Main Page" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="userButton" Content="User" HorizontalAlignment="Left" Margin="76,193,0,0" VerticalAlignment="Top" Width="151" Height="70" Click= "userButton_Click"/>
+        <Button x:Name="adminButton" Content="Admin" HorizontalAlignment="Left" Margin="458,193,0,0" VerticalAlignment="Top" Height="70" Width="135" Click="adminButton_Click"/>
+
+    </Grid>
+</Window>
