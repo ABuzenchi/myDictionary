@@ -1,0 +1,14 @@
+﻿<Window x:Class="myDictionary.DeleteWord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myDictionary"
+        mc:Ignorable="d"
+        Title="DeleteWord" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="inputBox" HorizontalAlignment="Left" Margin="154,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="378" Height="65" />
+        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Left" Margin="240,258,0,0" VerticalAlignment="Top" Width="199" Height="58" Click="deleteButton_Click"/>
+
+    </Grid>
+</Window>
