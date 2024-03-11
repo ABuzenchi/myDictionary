@@ -1,0 +1,21 @@
+﻿<Window x:Class="myDictionary.ExistingCategory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myDictionary"
+        mc:Ignorable="d"
+        Title="ExistingCategory" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="categoryBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="31,99,612,134"/>
+        <Label HorizontalAlignment="Left" Margin="362,138,0,0"/>
+        <Label Content="Nume" HorizontalAlignment="Left" Margin="358,98,0,0" VerticalAlignment="Top" Height="34" RenderTransformOrigin="2.75,0.591"/>
+        <Label Content="PhotoPath" HorizontalAlignment="Left" Margin="362,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="Descriere" HorizontalAlignment="Left" Margin="350,149,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="addButton" Content="Adauga" HorizontalAlignment="Left" Margin="242,357,0,0" VerticalAlignment="Top" Width="232" Height="67" Click="addButton_Click"/>
+        <TextBox x:Name="descriptionBox" HorizontalAlignment="Left" Margin="432,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="336"/>
+        <TextBox x:Name="nameBox" HorizontalAlignment="Left" Margin="432,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="336"/>
+        <Button x:Name="Photo" Content="Photo" HorizontalAlignment="Left" Margin="479,200,0,0" VerticalAlignment="Top" Width="105" Click="Photo_Click"/>
+
+    </Grid>
+</Window>
